@@ -21,6 +21,8 @@ function Card(cardData) {
             <img className="card-header-img" alt={cardData.alt} src={cardData.img}/>
             <p className="card-body"> {hotelPrice} </p>
             <p className="card-body"> {cardData.description} </p>
+            <p waffle= 'card-body' >{'nearest to:'}</p>
+            <p className='card-body'>{cardData.nearby}</p>
             <Link to={cardData.id}>
                 <button className="card-button">View More</button>
             </Link>

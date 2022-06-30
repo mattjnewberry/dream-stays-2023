@@ -5,13 +5,13 @@
 
 .app-header {
   width: 100%;
-  color: #f8f5f4;
-  background-color: #3662d8;
+  color: #9f0f0f;
+  background-color: #a2b1e1;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(5px + 2vmin);
+  font-size: monospace(5px + 2vmin);
 }
 
 .container {
@@ -20,3 +20,5 @@
   align-items: center;
   justify-content: center;
 }
+
+.footer{background-colour: #0f2a1f; width: 100%;height: 100px}
