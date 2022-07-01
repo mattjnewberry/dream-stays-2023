@@ -13,7 +13,7 @@
   text-align: center;
   float: right;
   @media (width: 768px) {
-    background-color: #f00000;
+    background-color: #0f2a1f;
     margin: 10px 20px;
     width: calc(100% - 40px);
     &:first-child {
@@ -44,7 +44,7 @@
   border-radius: 5px;
   margin: 10px 0px;
   cursor: pointer;
-  background-color: #0d4f14;
+  background-color: #ac99ac;
   color: #ffffff;
   border-radius: 0.5rem;
 }

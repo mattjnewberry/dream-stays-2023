@@ -10,3 +10,6 @@ export function getHotelPrice(hotel_id) {
     let path = `/hotel/price/${hotel_id}`
     return callPricingService(path)
 }
+
+
+

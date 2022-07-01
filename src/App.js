@@ -12,14 +12,13 @@ export default function App() {
                 <h3>Swag London Hotels for Swag Persons</h3>
             </header>
             <h2>Our Hotels:</h2>
-            <button>Change user</button>
             <button onClick = {() => {
                 let welcomeMessage = document.getElementById("welcomeMessage");
                 let username = prompt("Please enter your name.");
                 localStorage.setItem("name", username);
                 welcomeMessage.textContent = "Welcome our swaggiest customer, " + username;
 
-console.log ("Hello")}}>Click me</button>
+console.log ("Hello")}}>Log in</button>
     <p id="welcomeMessage">
         Are you even swag enough to travel?
     </p>
@@ -31,9 +30,11 @@ console.log ("Hello")}}>Click me</button>
                         key={stay.id}
                         id={stay.id}
                         name={stay.name}
+                        price={stay.price}
                         description={stay.description}
                         nearby={stay.nearby[0]}
                         img={stay.img}
+                    
                     />
                 })}
             </div>
