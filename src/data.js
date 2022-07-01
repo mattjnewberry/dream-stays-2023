@@ -16,7 +16,7 @@ let stays = [
   },
   {
     id: "gb",
-    name: "Garza Blanca ",
+    name: "Garza Blanca (Fictional)",
     img: "https://th.bing.com/th/id/R.817fdd6325ba1229b98eeb780ddea145?rik=nO5fdZHAk%2fTZPw&riu=http%3a%2f%2fwww.garzablancaresort.com%2fblog%2fwp-content%2fuploads%2f2016%2f02%2fGarzaBlanca-12.jpg&ehk=%2fV5dN2lxaksH7IbfVEls84Azj4fjPY8dqkev7AcEgeM%3d&risl=&pid=ImgRaw&r=0",
     description:
       "The hotel is characterised by its luxurious facilities, the extent of the suites and the warmth in the service. It has a total of 164, junior suites, full suites with 1 or 2 bedrooms, as well as penthouses beside a beautiful pool and beach access. Fully renovated in 2010, this charming beach hotel welcomes guests in the lobby with 24-hour reception. Facilities include air conditioning, a hotel safe, currency exchange, cloakroom, lift access to the upper floors, room service and a car park. Guests can wine and dine in the bar or restaurant.",
@@ -24,12 +24,12 @@ let stays = [
     rating: "Rating: 5.0",
     price: "£950",
     activities: ['eating'],
-    reviews: ["5.0: YES"],
-    reviews2: ["4.9: Extravagant, Marvellous, Splendid, absolutely splendid, divine scenery, but leaves were standing on my window for the 0.1 off. :("]
+    reviews: ["example review here"],
+    reviews2: ["example review here"]
   },
   {
     id: "tfp",
-    name: "Taj Falaknuma Palace",
+    name: "Taj Falaknuma Palace (Fictional)",
     img: "https://www.worldblaze.in/wp-content/uploads/2014/12/Taj-Falaknuma-Palace-Hyderabad.jpg",
     description:
       "One of the most highly acclaimed luxury hotels in India is Taj Falaknuma Palace, which was earlier occupied by the Royal Family of Rajasthan and has now been leased to the Taj Group. The majestic hotel still holds the glory and magnificence of its royal background.",
@@ -37,8 +37,8 @@ let stays = [
     rating: "Rating: 3.8",
     price: "£1000",
     activities: ['riding cars'], 
-    reviews: ["4.1: This was the only nearby hotel, but the staff were very nice and I had a nice stay. Riding cars = bonus. :)"],
-    reviews2: ["4.9: Insert creative comment here???"]
+    reviews: ["example review here"],
+    reviews2: ["example review here"]
   },
 ];
 
