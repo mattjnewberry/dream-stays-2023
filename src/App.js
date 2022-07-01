@@ -10,6 +10,8 @@ export default function App() {
             <header className="app-header">
                 <h1>Dream Stays</h1>
             </header>
+                <h2>London</h2>
+                h2 { font-size: 64px; }
             <div className="container">
                 {stays.map((stay) => {
 
