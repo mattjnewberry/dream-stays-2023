@@ -9,8 +9,10 @@ export default function App() {
     <div className="app">
       <header className="app-header">
         <h1>Le rêve visite</h1>
+        <h1>Take a trip with us across the globe and discover the wonders of countries through high quality hotels</h1>
+        
       </header>
-      <h2>World-wide</h2>
+      <h2>World Wide</h2>
       <button>Change user</button>
       <button onClick={() => {
     let welcomeMessage = document.getElementById("welcomeMessage");

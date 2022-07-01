@@ -9,9 +9,10 @@ let stays = [
       "We are London’s most iconic hotel. A five star haven on Piccadilly that is famous the world over for its historic elegance, impeccable service, impressive suites, and legendary Afternoon Tea.",
     nearby: ["London eye", "Buckingham Palace", "Tower Bridge"],
     rating: "Rating: 4.2",
-    price: "£1000",
+    price: "£480",
     activities: ['ballroom dancing, sight-seeing, going on multiple rides'],
-    reviews: []
+    reviews: ["3.8: Nice free food they got, could have a little more drink varieties."],
+    reviews2: ["3.9: I disagree with above ^^^ Nice drinks they got, could have a little more food varities"]
   },
   {
     id: "gb",
@@ -21,9 +22,10 @@ let stays = [
       "The hotel is characterised by its luxurious facilities, the extent of the suites and the warmth in the service. It has a total of 164, junior suites, full suites with 1 or 2 bedrooms, as well as penthouses beside a beautiful pool and beach access. Fully renovated in 2010, this charming beach hotel welcomes guests in the lobby with 24-hour reception. Facilities include air conditioning, a hotel safe, currency exchange, cloakroom, lift access to the upper floors, room service and a car park. Guests can wine and dine in the bar or restaurant.",
     nearby: ["10 minutes from the centre and Malecón", "traditional centre of Vallarta ", "sandy beach"],
     rating: "Rating: 5.0",
-    price: "£1000",
+    price: "£950",
     activities: ['eating'],
-    reviews: []
+    reviews: ["5.0: YES"],
+    reviews2: ["4.9: Extravagant, Marvellous, Splendid, absolutely splendid, divine scenery, but leaves were standing on my window for the 0.1 off. :("]
   },
   {
     id: "tfp",
@@ -34,8 +36,9 @@ let stays = [
     nearby: ["London eye", "Buckingham Palace", "Tower Bridge"],
     rating: "Rating: 3.8",
     price: "£1000",
-    activities: ['riding Cars'], 
-    reviews: ["5.0 stars: "]
+    activities: ['riding cars'], 
+    reviews: ["4.1: This was the only nearby hotel, but the staff were very nice and I had a nice stay. Riding cars = bonus. :)"],
+    reviews2: ["4.9: Insert creative comment here???"]
   },
 ];
 
