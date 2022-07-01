@@ -3,6 +3,7 @@ async function callPricingService(path) {
     const pricingUrl = hostUrl + path
     console.log("Getting price")
 
+
     return (await fetch(pricingUrl).then(resp => resp.text()))
 }
 

@@ -5,8 +5,8 @@
 
 .app-header {
   width: 100%;
-  color: #f8f5f4;
-  background-color: #3662d8;
+  color: #bdccfe;
+  background-color: #5240ef;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -19,4 +19,14 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+}
+
+h2 { font-size: 64px; }
+
+.app {
+  background-color: #ffffff;
+  text-align: center;
+  align-items: center;
+  color:#ffffff ;
+  background-image: url(https://th.bing.com/th/id/R.52529b6e678187f730cc7c26549d063c?rik=ao4WRIvZZhWYfg&pid=ImgRaw&r=0);
 }

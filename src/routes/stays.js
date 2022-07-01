@@ -9,11 +9,15 @@ export default function Stay() {
   return stay ? (
     <div className="app">
       <header className="app-header">
-        <h1>Dream Stays</h1>
+        <h1>Le rêve du </h1>
       </header>
       <img className="stay-img" alt={stay.name} src={stay.img} />
       <h2>{stay.name}</h2>
       <p className="stay-description">{stay.description}</p>
+      <h3>Activities</h3>
+      <p className="stay-description">{stay.activities}</p>
+      <h4>Reviews</h4>
+      <p className="stay-description">{stay.reviews}</p>
     </div>
   ) : (
     <></>

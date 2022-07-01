@@ -4,7 +4,7 @@ import {getHotelPrice} from "../pricing-server";
 import {useEffect, useState} from "react";
 
 function Card(cardData) {
-    const [hotelPrice, setHotelPrice] = useState(0);
+    const [hotelPrice, setHotelPrice] = useState("£1000");
 
     // I am called when Chrome is displaying the hotel
     useEffect(() => {
@@ -21,6 +21,8 @@ function Card(cardData) {
             <img className="card-header-img" alt={cardData.alt} src={cardData.img}/>
             <p className="card-body"> {hotelPrice} </p>
             <p className="card-body"> {cardData.description} </p>
+            <p className="card-body"> {cardData.rating} </p>
+            <p className="card-body"> {cardData.activities} </p>
             <Link to={cardData.id}>
                 <button className="card-button">View More</button>
             </Link>
